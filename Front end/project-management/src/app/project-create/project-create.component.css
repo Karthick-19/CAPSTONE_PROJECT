@@ -1,0 +1,40 @@
+/* src/app/components/project-create/project-create.component.css */
+form {
+  /* width: 50%;
+    max-width: 600px; */
+    /* max-width: 400px; 
+    */
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  div {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+    border-color: red;
+  }
+  
+/* .form-container{
+  margin: 0 auto;
+  width: 60%;
+  box-sizing: border-box;
+} */

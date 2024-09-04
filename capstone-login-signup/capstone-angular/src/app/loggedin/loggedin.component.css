@@ -1,0 +1,16 @@
+main{
+    height: 100vh;
+    background-color: #6D9886;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 91%
+}
+
+.data>p{
+    padding: 15px;
+}

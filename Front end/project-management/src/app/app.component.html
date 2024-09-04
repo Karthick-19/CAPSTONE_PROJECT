@@ -1,0 +1,30 @@
+<!-- <div class="app-container">
+  <mat-toolbar color="primary" class="top-nav">
+    <button mat-icon-button (click)="toggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-icon-button (click)="openTimeZoneConverter()">
+      <mat-icon>access_time</mat-icon>
+    </button>
+    <span class="app-title">TeamSync</span>
+  </mat-toolbar>
+
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" class="side-nav" [opened]="isSidenavOpen">
+      <mat-nav-list>
+        <a mat-list-item routerLink="/projects" (click)="navigateToProject()">Projects</a>
+        <div class="bottom-nav">
+          <a mat-list-item routerLink="/settings">Settings</a>
+          <a mat-list-item routerLink="/edit-profile" (click)="navigateToEdit()">Edit Profile</a>
+          <a mat-list-item (click)="logout()">Logout</a>
+        </div>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content class="main-content">
+      
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div> -->
+
+<router-outlet></router-outlet>
